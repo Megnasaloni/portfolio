@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="data/css/style.css" />
+    <style>
+        .home {
+            background: linear-gradient(to bottom,
+                    rgba(0, 0, 0, 0.7) 10%,
+                    rgba(0, 0, 0, 0.7) 100%),
+                url(images/bg.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        @media screen and (max-width: 768px) {
+            .home {
+                background-size: cover;
+                background-position: center center;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="transition transition-1 is-active"></div>
+    <header>
+        <nav class="menu">
+            <div class="logo">
+                <img src="images/MS_WHITE.png" style="height: 100%;width:100%;" />
+            </div>
+            <ul class="nav-links">
+                <li class="active">
+                    <a class="navId" href="index.html">Me.</a>
+                </li>
+                <li>
+                    <a class="navId" href="about.html">About</a>
+                </li>
+                <li>
+                    <a class="navId" href="portfolio.html">Portfolio</a>
+                </li>
+                <li>
+                    <a class="navId" href="contact.html">Contact</a>
+                </li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+                <div class="line4"></div>
+                <div class="line5"></div>
+            </div>
+        </nav>
+    </header>
+    <section class="home" id="home">
+        <div class="container name" >
+            <h1>Megna Saloni</h1>
+            <div class="desc">
+                <h4>I'm a <div class='console-container'><span id='text'></span>
+                        <div class='console-underscore' id='console'>&#95;</div>
+                    </div>
+                </h4>
+            </div>
+        </div>
+        <div class="social">
+            <ul class="links">
+                <li>
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                </li>
+                <li>
+                    <a href="#"><i class="fa fa-github"></i></a>
+                </li>
+                <li>
+                    <a href="#"><i class="fa fa-instagram"></i></a>
+                </li>
+                <li>
+                    <a href="#"><i class="fa fa-pinterest"></i></a>
+                </li>
+            </ul>
+        </div>
+
+    </section>
+</body>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>`
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="data/javascript/navbar.js"></script>
+<script src="data/javascript/text.js"></script>
+<script src="data/javascript/portfolio.js"></script>
+<script src="data/javascript/transition.js"></script>
+
+</html>
